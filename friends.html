@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to KoKoa Talk</title>
+    <title>Friends - KoKoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,20 +23,15 @@
         </div>
     </div>
 
-    <header class="welcom-header">
-        <h1 class="welcom-header__title">Welcom to KokoaTalk</h1>
-        <p class="welcom-header__text">If you have to Kokoa Account,
-            log in with your email or phone number.
-        </p>
-    </header>
-
-    <form action="friends.html" method="GET" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number"/>
-        <input name="password" type="text" placeholder="Password"/>
-        <input type="submit" value="Log in"/>
-
-    <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><span class="notification">1</span><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><div id="challange"></div><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+   
     <script src="https://kit.fontawesome.com/2e952338f8.js"
      crossorigin="anonymous">
     </script>
